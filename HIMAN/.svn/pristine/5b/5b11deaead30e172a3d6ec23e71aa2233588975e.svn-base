@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="/HIMAN/css/login_index.css" type = "text/css">
+	<link rel="stylesheet" href="/HIMAN/css/font2/iconfont.css" type = "text/css">
+	<link rel="stylesheet" href="/HIMAN/css/comment.css" type = "text/css">
+	<script src = "/HIMAN/js/jquery-1.11.1.js"></script>
+	<script src = "/HIMAN/js/login_index.js"></script>
+</head>
+<body>
+<!-- 头部 -->
+	<!--//顶部开始-->
+<div class="w_host_top">
+        <div class="w_header clear">
+
+            <div class="w_header_logo">
+                <a href="">
+                    <span class="logo"></span>
+                </a>
+            </div>
+
+            <div class="w_search">
+                <span class="placeholder">大家正在搜：被要求证明自己是唯一继承人</span>
+                <input type="text" autocomplete="off" class="w_input" name="search-input">
+                <a href="" class="search-a search-c "></a>
+                <div class="w_search_down">
+                    <div class="w_search_topmenulist">
+                        <div class="basic">
+                            <ul class="basic_list clear">
+                                <li><a href=""></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="plus">
+                            <a href="" class="S_spetxt">查看完整热搜榜»</a>
+                            <ul class="plus_list clear">
+                                <li>
+                                    <a href=""><i class="icon_num_red">1</i>
+                                    厉害了我的国</a>
+                                </li>
+                                <li>
+                                 <a href="">   <i class="icon_num_yellow">2</i>
+                                    我国快递业连续三年世界第一</a>
+                                </li>
+                                <li>
+                                   <a href=""> <i class="icon_num_gray">3</i>
+                                    陈小春不想儿子在演艺圈</a>
+                                </li>
+                                <li>
+                                   <a href=""> <i class="icon_num_gray">4</i>
+                                    用PS和曾经的自己合影</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">5</i>
+                                    学霸情侣直博清华</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">6</i>
+                                      交警连放行11个绿灯</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">7</i>
+                                      白岩松解读十九大报告</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">8</i>
+                                      下车打电话 忘了车上女儿</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">9</i>
+                                      白发爷爷浪漫接机</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">10</i>
+                                      全球手机流量榜</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w_head clear">
+                <div class="w_head_left">
+                    <ul class="w_head_left_list clear">
+                        <li><a href="">
+                            <span class="w_ficon"></span>
+                            <em class="S_txt1">首页</em>
+                        </a></li>
+                        <li><a href="">
+                            <span class="w_ficon"></span>
+                            <em class="S_txt1">视频</em>
+                        </a></li>
+                        <li><a href="">
+                            <span class="w_ficon"></span>
+                            <em class="S_txt1">发现</em>
+                        </a></li>
+                        <li><a href="">
+                            <span class="w_ficon"></span>
+                            <em class="S_txt1">游戏</em>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="w_head_right ">
+                    <ul class="w_head_right_list clear">
+                        <li><a href="../html/register.html">注册</a></li>
+                        <li class="w_head_right_border"></li>
+                        <li><a class="login" href="">登录</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!--//顶部结束-->
+<!-- 主体 -->
+	<div id = "h_content">
+		<div class = "h_frame">
+		<!-- 左部 -->
+			<div class = "h_main_l" fixed-box="true">
+				<div id = "h_group">
+					<div class = "h_fixd">
+						<div class = "h_left_nav">
+							<div class = "h_noborder lev_box">
+								<h3 class = "h_lev">
+									<a href="">
+										<span class = "levtxt">首页</span>
+									</a>
+								</h3>
+							</div>
+							<div class = "h_noborder lev_box">
+								<h3 class = "h_lev">
+									<a href="">
+										<span class = "levtxt">我的收藏</span>
+									</a>
+								</h3>
+							</div>
+							<div class = "h_noborder lev_box">
+								<h3 class = "h_lev">
+									<a href="">
+										<span class = "levtxt">我的赞</span>
+									</a>
+								</h3>
+							</div>
+							<div class = "lev_line">
+								<fieldset></fieldset>
+							</div>
+							<div class = "h_noborder lev_box">
+								<div class = "lev">
+									<a href="">
+										<span class = "ico_block">
+											<em class = "iconfont icon-remen"></em>
+										</span>
+										<span class = "levtxt">热门微博</span>
+										<i class = "h_new"></i>
+									</a>
+								</div>
+								<div class = "lev">
+									<a href="">
+										<span class = "ico_block">
+											<em class = "iconfont icon-shipin"></em>
+										</span>
+										<span class = "levtxt">热门视频</span>
+										<i class = "h_new"></i>
+									</a>
+								</div>
+							</div>
+							<div class = "lev_line">
+								<fieldset>
+									<legend><a href=""></a></legend>
+								</fieldset>
+							</div>
+							<div class = "h_UI_scrollView">
+								<div class = "h_UI_scrollContent">
+									<div class = "lev_box">
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em class = "iconfont icon-quanneihaoyou"></em>
+												</span>
+												<span class = "levtxt">好友圈</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em class = "iconfont icon-yanjing"></em>
+												</span>
+												<span class = "levtxt">特别关注</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">新闻热点</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">演员</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">动漫</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">时事</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">军事</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">财经</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">明星</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">搞笑</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">名人明星</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">科学</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">音乐</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">群微博</span>							
+											</a>
+										</div>
+										<div class = "lev">
+											<a href="">
+												<span class = "ico_block">
+													<em>●</em>
+												</span>
+												<span class = "levtxt">悄悄关注</span>							
+											</a>
+										</div>										
+										<div class = "levmore">
+											<a>展开</a>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- 中部 -->
+			<div class = "h_plc_main">
+				<div class = "h_main_c">
+					<div class = "h_pl_content">
+						<div class = "send_weibo">
+							<div class = "title_area">
+								<div class = "title">
+									<p class = "h_swficon">
+										<em class="spac1">有什么新</em>
+										<em class="spac2">鲜</em>
+										<em class="spac3">事想告诉大家</em>
+										<em class="spac4">?</em>
+									</p>
+								</div>
+								<div class = "key">
+									<a href="" target="_blank">给青年的一封信：欣赏你一往无前的奋斗姿态</a>
+									<a href="" target="_blank">热门微博</a>
+								</div>
+
+							</div>
+							<form action="/HIMAN/message/createMessage" method="post" enctype="multipart/form-data">
+							<div class = "input">
+								<textarea name="messageContent" id="h_input" cols="30" rows="10"></textarea>
+								<input type = "hidden" name = "username" class = "username" value = "15269523213" />	
+							</div>
+							<div class = "func_area">
+								<div class = "func">
+									<div class = "limits">
+										<a href="" onclick="return false">
+											<span class = "h_autocut">公开</span>
+											<em class = "iconfont icon-icon88"></em>
+										</a>
+									</div>
+									<input type="submit" name="h_btn" class = "h_btn" value = "发布">
+								</div>
+								<div class = "kind">
+									<a href=""><em class = "iconfont icon-biaoqing"></em>表情</a>
+									<a href="" class="local"><em class = "iconfont icon-tupian"></em>图片</a>
+									<a href=""><em class = "iconfont icon-shipin"></em>视频</a>
+									<a href=""><em class = "iconfont icon-huati"></em>话题</a>
+									<a href=""><em class = "iconfont icon-shandian"></em>头条文章</a>
+									<a href="" class = "ficon_more"><em></em>•••</a>
+								</div>										
+							<div class="local_content clearFlex">  
+							             
+							                <div class="upImg clearFlex">  
+							                    <div class="imgOnloadWrap"></div>  
+							                    <div class="upWrap">  
+							                        <div class="fileWrap">  
+							                            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" name="file1"/>  
+							                            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" name="file2"/>  
+							                            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" name="file3"/>  
+							                            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" name="file4"/>  
+							                            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" name="file5"/>  
+							                            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" name="file6"/>  
+							                            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" name="file7"/>  
+							                            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" name="file8"/>  
+							                            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" name="file9"/>  
+							                        </div>  
+							                        <div class="imgWrap">  
+							                            <img src="" alt="" />  
+							                        </div>  
+							                    </div>  
+							                </div>  
+							             
+							</div>
+			
+										
+									
+								
+							</div>
+							</form>
+						</div>
+						<div class = "content_homefeed">
+							<div class = "h_tab_a">
+								<div class = "tab_box">
+									<ul class = "tab">
+										<li class = "curr">
+											<a href=""><span>全部</span></a>
+										</li>
+										<li class = "h_bg2">
+											<a href=""><span>原创</span></a>
+										</li>
+										<li class = "h_bg2">
+											<a href=""><span>图片</span></a>
+										</li>
+										<li class = "h_bg2">
+											<a href=""><span>视频</span></a>
+										</li>
+										<li class = "h_bg2">
+											<a href=""><span>音乐</span></a>
+										</li>
+										<li class = "h_bg2">
+											<a href=""><span>文章</span></a>
+										</li>
+
+									</ul>
+									<div class = "fr_box">
+										<div class = "search_box">
+											<span class = "h_search_s">
+												<form action="" method="get">
+													<input type="text" class = "h_input" value="搜索我关注人的微博">
+												</form>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- <div class = "h_cardwrap"><a href="">有新微博，点击查看</a></div> -->
+						<!-- 具体微博内容 -->
+							<div class = "h_feed">
+							<!-- 一条微博 -->
+								
+
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class = "h_main_r">
+				<!-- 个人信息 -->
+					<div class = "rm_myinfo">
+						<div class = "person_info">
+							<div class = "skin_cover">
+								<div class = "headpic"><a href="/HIMAN/myUserInfo">
+									<img src="../images/49646b5ejw8ejph0g870sj20no0nojud.jpg" alt="">
+								</a></div>
+							</div>
+							<div class = "WB_innerwrap">
+								<div class = "nameBox">
+									<a href="" class = "per_name">央视新闻</a>
+								</div>
+								<ul class = "user_atten">
+									<li><a href="">
+										<i>114</i>
+										<span>关注</span>
+									</a></li>
+									<li><a href="">
+										<i>2346</i>
+										<span>粉丝</span>
+									</a></li>
+									<li class = "wb_last"><a href="">
+										<i>11432</i>
+										<span>微博</span>
+									</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				<!-- 微博趋势榜 -->
+					<div class = "rm_rank">
+						<div class = "h_cardtitle_b">
+							<h2><a href="">微博童书榜实时趋势</a></h2>
+						</div>
+						<div class = "WB_trend">
+							<ul>
+								<li>
+									<div class = "h_pic_box">
+										<a href=""><img src="../images/100x150x75x0.jpg" alt=""></a>
+									</div>
+									<div class = "h_li_box li_box_one">
+										<div class = "h_info_box">
+											<a href="" class = "h_info_title"><i>1</i>超级迷宫大冒险(全三册)</a>
+											<p class = "h_subtitle">菲尔柯斯特出版社、格雷厄姆·怀特 </p>
+											<p></p>
+											<p>24154024分</p>
+										</div>
+
+									</div>
+								</li>
+								<li>
+									<div class = "h_pic_box">
+										<a href=""><img src="../images/100x150x75x01.jpg" alt=""></a>
+									</div>
+									<div class = "h_li_box">
+										<div class = "h_info_box">
+											<a href="" class = "h_info_title"><i>2</i>我的大英雄(全8册)</a>
+											<p class = "h_subtitle">王德启 </p>
+											<p></p>
+											<p>2321787分</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class = "h_pic_box">
+										<a href=""><img src="../images/100x150x75x02.jpg" alt=""></a>
+									</div>
+									<div class = "h_li_box">
+										<div class = "h_info_box">
+											<a href="" class = "h_info_title"><i>3</i>汪汪队立大功儿童安全救援故事书:第二辑(套装共8册)</a>
+											<p class = "h_subtitle">美国尼克儿童频道  </p>
+											<p></p>
+											<p>982462分</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a href="" class = "look_more">
+							<span>查看更多<i>></i></span>
+						</a>
+					</div>
+				<!-- 热门话题 -->
+					<div class = "rm_hottopic">
+						<div class = "topic_title">
+							<h4><a href="">热门话题</a></h4>
+							<div class = "topic_change">
+								<a href=""><i class = "iconfont icon-refresh"></i>换一换</a>
+							</div>
+						</div>
+						<div class = "topic_connent">
+							<ul>
+								<li>
+									<a href="">#这一刻的时光#</a>
+									<span>3.7亿</span>
+								</li>
+								<li>
+									<a href="">#扑通扑通少女心#</a>
+									<span>10.2亿</span>
+								</li>
+								<li>
+									<a href="">#不屑风雪#</a>
+									<span>1.4亿</span>
+								</li>
+								<li>
+									<a href="">#我的少女look#</a>
+									<span>2.3亿</span>
+								</li>
+								<li>
+									<a href="">#我心中的警察英雄#</a>
+									<span>2322万</span>
+								</li>
+								<li>
+									<a href="">#你为什么而活#</a>
+									<span>6万</span>
+								</li>
+								<li>
+									<a href="">#史上最全甜萌小说#</a>
+									<span>2万</span>
+								</li>
+								<li>
+									<a href="">#对话中华书局总编辑#</a>
+									<span>132万</span>
+								</li>
+							</ul>
+						</div>
+						<a href="" class = "look_more">
+							<span>查看更多<i>></i></span>
+						</a>
+					</div>
+				<!-- 好友关注动态 -->
+					<div class = "h_friend">
+						<div class = "h_friend_social">
+							<p>好友关注动态</p>
+						</div>
+						<div class = "h_friend_com">
+							<p>你评论过他的微博</p>
+							<div class = "you_friend">
+								<div class = "pic"><a href=""><img src="../images/e102cb15ly8ffes1aowufj20ru0rutaw.jpg" alt=""></a></div>
+								<div class="con">
+									<div class = "fri_name"><a href="">巍岳钦禹</a><a href=""><i></i></a></div>
+									<div class = "fri_classify">知名军事博主</div>
+									<div class = "fri_attention"><a href=""><i>+</i>关注</a></div>
+								</div>
+							</div>
+						</div>
+						<div class = "h_friend_com">
+							<p>你评论过他的微博</p>
+							<div class = "you_friend">
+								<div class = "pic"><a href=""><img src="../images/e102cb15ly8ffes1aowufj20ru0rutaw.jpg" alt=""></a></div>
+								<div class="con">
+									<div class = "fri_name"><a href="">巍岳钦禹</a><a href=""><i></i></a></div>
+									<div class = "fri_classify">知名军事博主</div>
+									<div class = "fri_attention"><a href=""><i>+</i>关注</a></div>
+								</div>
+							</div>
+						</div>
+						<div class = "h_friend_com">
+							<p>你评论过他的微博</p>
+							<div class = "you_friend">
+								<div class = "pic"><a href=""><img src="../images/e102cb15ly8ffes1aowufj20ru0rutaw.jpg" alt=""></a></div>
+								<div class="con">
+									<div class = "fri_name"><a href="">巍岳钦禹</a><a href=""><i></i></a></div>
+									<div class = "fri_classify">知名军事博主</div>
+									<div class = "fri_attention"><a href=""><i>+</i>关注</a></div>
+								</div>
+							</div>
+						</div>
+						<div class = "h_friend_com">
+							<p>你评论过他的微博</p>
+							<div class = "you_friend">
+								<div class = "pic"><a href=""><img src="../images/e102cb15ly8ffes1aowufj20ru0rutaw.jpg" alt=""></a></div>
+								<div class="con">
+									<div class = "fri_name"><a href="">巍岳钦禹</a><a href=""><i></i></a></div>
+									<div class = "fri_classify">知名军事博主</div>
+									<div class = "fri_attention"><a href=""><i>+</i>关注</a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+				<!-- 公告栏 -->
+					<div class = "h_notice">
+						<div class = "h_friend_social">
+							<p>公告栏</p>
+						</div>
+						<div class = "h_notice_con">
+							<a href="">《​全国辟谣平台》</a>
+							<a href="">《首都互联网协会发布坚守七条底线倡议书》</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+	<script type="text/javascript">
+	function upImg(obj){  
+    var imgFile = obj.files[0];  
+    console.log(imgFile);  
+    var img = new Image();  
+    var fr = new FileReader();  
+    fr.onload = function(){  
+        var htmlStr = '<div class="upWrap">';  
+        htmlStr += '<div class="fileWrap">';  
+        htmlStr += '<input type="file" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" onchange="upImg(this)"/>';  
+        htmlStr += '</div>';  
+        htmlStr += '<div class="imgWrap upedImg"><span class="deleteImg">X</span>';  
+        htmlStr += '<img src="'+fr.result+'" alt="" />';  
+        htmlStr += '</div>';  
+        htmlStr += '</div>';  
+        $('.imgOnloadWrap').append(htmlStr);  
+        obj.value = '';  
+    }  
+    fr.readAsDataURL(imgFile);  
+}  
+/*-----------------------------删除图片------------------------------*/  
+$(document).on('click','.upedImg .deleteImg',function(){  
+    //处理未来事件  
+    $(this).parent().parent().remove();  
+})  
+</script>
+</body>
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>你好，#十九大#今天，中国</title>
+		<link rel="stylesheet" type="text/css" href="/HIMAN/css/particular.css"/>
+		<link rel="stylesheet" type="text/css" href="/HIMAN/css/comment.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="/HIMAN/css/font/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="/HIMAN/css/font/iconfont1.css">
+		<link rel="stylesheet" type="text/css" href="/HIMAN/css/font/iconfont2.css"/>
+		<script src="/HIMAN/js/jquery-1.10.1.min.js"></script>
+		<script src="/HIMAN/js/particular.js"></script>
+	<body>
+		<!--头部-->
+		<div class="w_host_top">
+        <div class="w_header clear" style="width: 1000px;">
+
+            <div class="w_header_logo">
+                <a href="">
+                    <span class="logo"></span>
+                </a>
+            </div>
+
+            <div class="w_search" style="width: 218px;">
+                <span class="placeholder">大家正在搜：许巍洲</span>
+                <input type="text" autocomplete="off" class="w_input" name="search-input">
+                <a href="" class="search-a search-c "></a>
+                <div class="w_search_down">
+                    <div class="w_search_topmenulist">
+                        <div class="basic">
+                            <ul class="basic_list clear">
+                                <li><a href=""></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="plus">
+                            <a href="" class="S_spetxt">查看完整热搜榜»</a>
+                            <ul class="plus_list clear">
+                                <li>
+                                    <a href=""><i class="icon_num_red">1</i>
+                                    厉害了我的国</a>
+                                </li>
+                                <li>
+                                 <a href="">   <i class="icon_num_yellow">2</i>
+                                    我国快递业连续三年世界第一</a>
+                                </li>
+                                <li>
+                                   <a href=""> <i class="icon_num_gray">3</i>
+                                    陈小春不想儿子在演艺圈</a>
+                                </li>
+                                <li>
+                                   <a href=""> <i class="icon_num_gray">4</i>
+                                    用PS和曾经的自己合影</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">5</i>
+                                    学霸情侣直博清华</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">6</i>
+                                      交警连放行11个绿灯</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">7</i>
+                                      白岩松解读十九大报告</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">8</i>
+                                      下车打电话 忘了车上女儿</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">9</i>
+                                      白发爷爷浪漫接机</a>
+                                </li>
+                                <li>
+                                  <a href="">  <i class="icon_num_gray">10</i>
+                                      全球手机流量榜</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w_head clear">
+                <div class="w_head_left">
+                    <ul class="w_head_left_list clear">
+                        <li><a href="">
+                            <span class="w_ficon"></span>
+                            <em class="S_txt1">首页</em>
+                        </a></li>
+                        <li><a href="">
+                            <span class="w_ficon"></span>
+                            <em class="S_txt1">视频</em>
+                        </a></li>
+                        <li><a href="">
+                            <span class="w_ficon"></span>
+                            <em class="S_txt1">发现</em>
+                        </a></li>
+                        <li><a href="">
+                            <span class="w_ficon"></span>
+                            <em class="S_txt1">游戏</em>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="w_head_right ">
+                    <ul class="w_head_right_list clear">
+                        <li><a href="../html/register.html">注册</a></li>
+                        <li class="w_head_right_border"></li>
+                        <li><a class="login" href="">登录</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+		<!--中间内容-->
+		<div class="f_content">
+			<div class="f_content_left">
+				<div class="f_content_leftTop">
+					<div class="f_content_leftTop_left">
+						<a href="">
+							<img src="../images/renmin.jpg" alt="" />
+						</a>
+						<div class="f_content_leftTop_focus">
+							<a href="">
+								<em>+</em>关注
+							</a>
+						</div>
+						
+					</div>
+					<i class="iconfont icon-jiantouxia"></i>
+					<div class="f_content_leftTop_right">
+						<div>
+							<a href="">人民日报</a>
+							<a href=""><i></i></a>
+							<a href=""><i></i></a>
+						</div>
+						<div>
+							<a href="">10月18日 07:00</a> 来自
+							<a href="">新媒体聚合平台</a>
+						</div>
+						<div>【你好，
+							<a href="">#十九大#</a>】 今天，中国共产党第十九次全国代表大会召开。“人民对美好生活的向往，就是我们的奋斗目标。”这是对人民的深情表白，也是对中国未来的庄严承诺。不忘初心，继续前进。你好，十九大；加油，中国！ ​​​​
+						</div>
+					</div>
+				</div>
+				<div class="f_BigImg" >
+					<div class="f_BigImg_top">
+						<ul>
+							<li><i class="iconfont4 icon-shouqi"></i><b id="slidUp"> 收起</b></li>
+							<li><i class="iconfont4 icon-chakandatu"></i><b> 查看大图</b></li>
+							<li><i class="iconfont4 icon-xiangzuoxuanzhuan"></i><b id="turnLeft"> 向左旋转</b></li>
+							<li><i class="iconfont4 icon-xiangyouxuanzhuan"></i><b id="turnRight"> 向右旋转</b></li>
+						</ul>
+					</div>
+					<div class="f_BigImg_center">
+						<img src="../images/b1.jpg" alt="" />
+					</div>
+					<div class="f_BigImg_bottom">
+						<ul id="f_botton_list">
+							<li class="f_active"><a href="###"><img src="../images/b1.jpg" style="opacity: 1;"/></a></li>
+							<li><a href="###"><img src="../images/b2.jpg"/></a></li>
+							<li><a href="###"><img src="../images/b3.jpg"/></a></li>
+							<li><a href="###"><img src="../images/b4.jpg"/></a></li>
+							<li><a href="###"><img src="../images/b5.jpg"/></a></li>
+							<li><a href="###"><img src="../images/b6.jpg"/></a></li>
+							<li><a href="###"><img src="../images/b7.jpg"/></a></li>
+							<li><a href="###"><img src="../images/b8.jpg"/></a></li>
+							<li><a href="###"><img src="../images/b9.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="f_SmallImg" style="display: none;">
+					<ul>
+						<li><a href="###"><img src="../images/b1.jpg"/></a></li>
+						<li><a href="###"><img src="../images/b2.jpg"/></a></li>
+						<li><a href="###"><img src="../images/b3.jpg"/></a></li>
+						<li><a href="###"><img src="../images/b4.jpg"/></a></li>
+						<li><a href="###"><img src="../images/b5.jpg"/></a></li>
+						<li><a href="###"><img src="../images/b6.jpg"/></a></li>
+						<li><a href="###"><img src="../images/b7.jpg"/></a></li>
+						<li><a href="###"><img src="../images/b8.jpg"/></a></li>
+						<li><a href="###"><img src="../images/b9.jpg"/></a></li>
+					
+					</ul>
+				</div>
+				<div class="f_collect">
+					<ul>
+						<li><i>☆</i><b> 收藏</b><span></span></li>
+						<li><i class="iconfont2 icon-fenxiang"></i><b> 6475624</b><span></span></li>
+						<li><i class="iconfont2 icon-iconfont"></i><b>23452</b><span class="f_triangle"></span></li>
+						<li><i class="iconfont2 icon-dianzan"></i><b>2357896</b><span></span></li>
+					</ul>
+				</div>
+				<div class="f_discuss">
+					<div class="f_discuss_top">
+						<p><i></i></p>
+						<p>以下为博主精选评论</p>
+					</div>
+					<div class="f_discuss_center">
+						<div class="f_speak"><img src="../images/0.jpg" alt="" /></div>
+						<div>
+							<textarea class="f_texta"></textarea>
+							<div id="f_talk">
+								<div class="f_change">
+									<input type="checkbox" /><span>同时转发到我的微博</span>
+								</div>
+								<div><a href="">评论</a></div>
+							</div>
+						</div>
+	
+					</div>
+					<div class="f_discuss_list">
+						<div class="f_hotTalk">
+							<a href="">按热度</a>
+							<a href="">按时间</a>
+						</div>
+						<div class="f_talkList">
+							<div class="f_talkList_user"><img src="../images/00.jpg" alt="" /></div>
+							<div class="f_talkList_content">
+								<div><a href="">千与千寻:</a><i></i> 祝福祖国越来越好</div>
+								<div class="f_talkList_make">
+									<span>10月18日 07:01</span>
+									<ul>
+										<li><a href="">举报</a></li>
+										<li><a href="">屏蔽</a></li>
+										<li><a href="">回复</a></li>
+										<li><i class="iconfont2 icon-dianzan"></i><a href="">2356</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="f_content_right">
+				<div class="f_content_right_top">
+					<h4>相关推荐</h4>
+					<div><a href="" class="iconfont1 icon-shuaxin"></a> <i>刷新</i></div>
+				</div>
+				<div class="f_content_right_content">
+					<div class="f_rightlist_top">
+						<div>
+							<img src="../images/smile.jpg" alt="" />
+						</div>
+						<div>
+							<a href="">让你逗我笑</a>
+							<a href="">10月18日 07:00</a>
+						</div>
+						<div>
+							<a href="">
+								<em>+</em>  关注
+							</a>
+						</div>
+					</div>
+					<div class="f_content_right_listcontent">
+						【他用手拨开了玻璃，营救幼小的生命<img src="../images/heart.gif" alt="" />】 浙江衢州一母亲不慎将不满两个月的婴儿和车钥匙一并锁在车里。接警后，民警汪硕用警棍将车窗凿出一个小孔，为了不让玻璃碎渣溅到婴儿身上，他直接用手指一点一点将小孔拨开。最终孩子成功获救，可他的手指却已血肉模糊……给好民警点赞！（无线衢州）​​​​
+					</div>
+					<div class="f_bigImg"><img src="../images/1.jpg" alt="" /></div>
+					<div class="f_smallImg">
+						<ul>
+							<li><img src="../images/1.jpg" alt="" /></li>
+							<li><img src="../images/2.jpg" alt="" /></li>
+						</ul>
+					</div>
+					<div class="f_share">
+						<ul>
+							<li><i class="iconfont2 icon-fenxiang"></i><span>145778</span></li>
+							<li><i class="iconfont2 icon-iconfont"></i><span>2855</span></li>
+							<li><i class="iconfont2 icon-dianzan"></i><span>27702</span></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		<!--脚部-->
+		<div class="w_host_footer">
+		    <div class="w_head_foot">
+		        <div class="w_head_foot_top clear">
+		                <dl class="w_head_foot_list">
+		                    <dt>微博精彩</dt>
+		                    <dd><a class="col1 S_txt2" target="_blank" href="http://hot.plaza.weibo.com/?bottomnav=1&amp;wvr=6&amp;type=re&amp;act=day">热门微博</a><a class="col1 S_txt2" target="_blank" href="http://huati.weibo.com/?bottomnav=1&amp;wvr=6" style="margin: 0 -11px;">热门话题</a></dd>
+		                    <dd><a class="col1 S_txt2" target="_blank" href="http://verified.weibo.com/?bottomnav=1&amp;wvr=6">名人堂</a><a class="col1 S_txt2" target="_blank" href="http://vip.weibo.com/home?bottomnav=1&amp;wvr=6">微博会员</a></dd>
+		                    <dd><a class="col1 S_txt2" target="_blank" href="http://photo.weibo.com/?bottomnav=1&amp;wvr=6">微相册</a><a class="col1 S_txt2" target="_blank" href="http://game.weibo.com/?bottomnav=1&amp;wvr=6">微游戏</a></dd>
+		                    <dd><a class="col1 S_txt2" target="_blank" href="http://data.weibo.com/index/?bottomnav=1&amp;wvr=6">微指数</a></dd>
+		                </dl>
+		                <dl class="w_head_foot_list">
+		                    <dt>手机玩微博</dt>
+		                    <dd><a class="T_code col2">
+		                        <img src="../images/footer_code.jpg" alt="二维码">
+		                    </a>
+		                        <a class="T_txt S_txt2 " href="http://m.weibo.cn/client/guide/show">扫码下载，更多版本<br>戳这里</a>
+		                    </dd>
+		                </dl>
+		                <dl class="w_head_foot_list">
+		                    <dt>认证&amp;合作</dt>
+		                    <dd><a class="col3 S_txt2" target="_blank" href="http://verified.weibo.com/verify?bottomnav=1&amp;wvr=6">申请认证</a><a class="col3 S_txt2" target="_blank" href="http://open.weibo.com/?bottomnav=1&amp;wvr=6">开放平台</a></dd>
+		                    <dd><a class="col3 S_txt2" target="_blank" href="http://e.weibo.com/introduce/introduce?bottomnav=1&amp;wvr=6">企业微博</a><a class="col3 S_txt2" target="_blank" href="http://open.weibo.com/connect?bottomnav=1&amp;wvr=6">链接网站</a></dd>
+		                    <dd><a class="col3 S_txt2" target="_blank" href="//weibo.com/static/logo?bottomnav=1&amp;wvr=6">微博标识</a><a class="col3 S_txt2" target="_blank" href="http://tui.weibo.com/?bottomnav=1&amp;wvr=6">广告服务</a></dd>
+		                    <dd><a class="col3 S_txt2" target="_blank" href="http://xueyuan.weibo.com/?bottomnav=1&amp;wvr=6">微博商学院</a></dd>
+		                </dl>
+		                <dl class="w_head_foot_list">
+		                    <dt>微博帮助</dt>
+		                    <dd><a class="col4 S_txt2" target="_blank" href="http://help.weibo.com/faq/q/358?bottomnav=1&amp;wvr=6">常见问题</a></dd>
+		                    <dd><a class="col4 S_txt2" target="_blank" href="http://help.weibo.com/selfservice?bottomnav=1&amp;wvr=6">自助服务</a></dd>
+		                </dl>
+		        </div>
+		        <div class="w_head_foot_bottom">
+		            <p class="copy">
+		                <a href="http://ir.weibo.com/?bottomnav=1&amp;wvr=6" class="S_txt2" target="__blank"><i class="W_icon icon_weibo"></i>关于微博</a>
+		                <a href="http://help.weibo.com/?refer=didao&amp;bottomnav=1" target="_blank" class="S_txt2">微博帮助</a>
+		                <a class="S_txt2" href="http://help.weibo.com/newtopic/suggest?bottomnav=1" target="_blank">意见反馈</a>
+		                <a class="S_txt2" target="_blank" href="//weibo.com/aj/static/report.html?_wv=6">舞弊举报</a>
+		                <a class="S_txt2" href="http://open.weibo.com/?bottomnav=1" target="_blank">开放平台</a>
+		                <a class="S_txt2" href="http://hr.weibo.com?bottomnav=1" target="_blank">微博招聘</a>
+		                <a class="S_txt2" href="http://news.sina.com.cn/guide/?bottomnav=1" target="_blank">新浪网导航</a>
+		                <a class="S_txt2" href="http://service.account.weibo.com/?bottomnav=1" target="_blank">社区管理中心</a>
+		                <a class="S_txt2" href="http://service.account.weibo.com/roles/gongyue?bottomnav=1" target="_blank">微博社区公约</a>
+		                <a class="S_txt2" href="//weibo.com/aj/static/jicp.html?_wv=6" target="_blank">京ICP证100780号</a>
+		                <a class="S_txt2" href="//weibo.com/aj/static/medi_license.html?_wv=6" target="__blank">互联网药品服务许可证</a>
+		            </p>
+		            <p class="company">
+		                <span class="copy S_txt2">Copyright ? 2009-2015 WEIBO 北京微梦创科网络技术有限公司</span>
+		                <span>
+		                    <a class="S_txt2" href="//weibo.com/aj/static/jww.html?_wv=6" target="_blank">京网文[2014]2046-296号</a>
+		                    <a class="S_txt2" href="http://www.miibeian.gov.cn" target="_blank">京ICP备12002058号</a>
+		                    <a class="S_txt2" href="//weibo.com/aj/static/license.html?_wv=6" target="_blank">增值电信业务经营许可证B2-20140447</a>
+		                    <select node-type="changeLanguage" suda-data="key=tblog_home_click&amp;value=language_versions_click">
+		                        <option value="zh-cn" selected="">中文(简体)</option>
+		                        <option value="zh-tw">中文(台灣)</option>
+		                        <option value="zh-hk">中文(香港)</option>
+		                        <option value="en">English</option>
+		                    </select>
+		                </span>
+		            </p>
+		            <p class="T_server S_txt2">服务热线：4000 960 960（个人/企业）服务时间9:00-21:00 4000 980 980（广告主）服务时间9:00-18:00 （按当地市话标准计算）    </p>
+		        </div>
+		    </div>
+		</div>
+	</body>
+</html>

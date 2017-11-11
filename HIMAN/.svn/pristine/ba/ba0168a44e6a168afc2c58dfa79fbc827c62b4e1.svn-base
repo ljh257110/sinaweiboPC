@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/HIMAN/images/favicon.ico">
+    <link rel="stylesheet" href="/HIMAN/css/register.css" type="text/css">
+   
+    <title>微博注册</title>
+     <script src = "/HIMAN/js/jquery-1.11.1.js" ></script>
+    <!-- <script src = "../js/register.js"></script> -->
+    <script src = "/HIMAN/js/11.js"></script>
+</head>
+<body>
+
+<div class="w_top">
+    <div class="w_top_linear"></div>
+    <div class="w_top_header">
+        <div class="w_logo_big"></div>
+    </div>
+
+    <div class="w_content">
+        <div class="w_cont">
+
+
+            <div class="w_cont_top">
+                <a id="personage-register" >个人注册</a>
+                <span class="vline">|</span>
+                <a id="official-register" >官方注册</a>
+            </div>
+
+
+            <div class="w_cont_cont clear">
+                <div class="w_cont_left">
+                    <form action="/HIMAN/register" method="post">
+                        <div class="mobile-number clear">
+                            <div class="mobile-number-left tit clear" >
+                                <span class="mobile-ico"></span>
+                                <i>*</i>
+                                <p>手机号：</p>
+                            </div>
+                            <div class="mobile-number-right clear">
+                                <a class = "country"></a>
+                                <div class = "msg_set_select">
+                                    <ul class = "y_scroll">
+                                        <li class = "select">
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                中国
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                中国香港
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                中国澳门
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                中国台湾
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                美国
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                加拿大
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                巴西
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                马来西亚
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                澳洲
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                日本
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                韩国
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                新加坡
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                英国
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                法国
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                俄罗斯
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                印度
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                泰国
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                德国
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                印尼
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                柬埔寨
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                缅甸
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                文莱
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                菲律宾
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                越南
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <em class = "W_ico12 icon_addone"></em>
+                                                老挝
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <span class = "tel_forenum">0086</span>
+                                <input type="text" name="userPhone" placeholder="请输入您的手机号码" action-data="text=请输入您的手机号码" autocomplete="off">
+                            </div>
+
+                            <div class="mobile-error">
+                                <p class="error">
+                                    <span class="icon_rederrorS"></span>
+                                    <b>请输入您的手机号码</b>
+                                </p>
+                            </div>
+                            <div class="attachment">或使用<a id="mobile-number-email" >邮箱注册</a></div>
+
+                        </div>
+                        <div class="w_contents_email clear">
+                            <div class="tit">
+                                <span class="email-ico"></span>
+                                <i>*</i>
+                                邮箱：
+                            </div>
+                            <div class="inp">
+                           <!--  name="cont-useremail" -->
+                                <input node-type="email" action-type="text_copy"  type="text" class="useremail " >
+                                <!-- value="使用邮箱登录"> -->
+                                <div class="attachment">或使用<a id="mobile-email-number">手机注册</a></div>
+                            </div>
+                            <div class="mobile-error">
+                                <p class="error">
+                                    <span class="icon_rederrorS"></span>
+                                    <i>请输入你的常用邮箱请不要使用私人邮箱作为企业微博的注册微博</i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mobile-password clear">
+                            <div class="tit">
+                                <i>*</i>
+                                设置密码：
+                            </div>
+
+                            <input type="password" name="userPwd">
+
+                            <div class="mobile-error">
+                                <p class="error">
+                                    <span class="icon_rederrorS"></span>
+                                    <i>请输入6-16位数字、字母或常用符号，字母区分大小写</i>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="mobile-code clear">
+                            <div class="mobile-code-top">
+                              <div class="tit">
+                                  <i>*</i>
+                                  激活码：
+                              </div>
+                              <div class="mobile-code-right">
+                                  <a href="">
+                                      <span>免费获取短信激活码</span>
+                                  </a>
+                                  <input class="mobile-codes"  type="text">
+                                  <!-- name="mobile-codes" -->
+                              </div>
+                                <div class="mobile-error">
+                                    <p class="error">
+                                        <span class="icon_rederrorS"></span>
+                                        <i>请输入短信激活码</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mobile-code-cannot">
+                                <a  href="http://help.weibo.com/faq/q/2375/20136#20136" target="_blank">收不到验证码？</a>
+                            </div>
+                        </div>
+                        <div class="mobile-submit">
+                        <!-- name=".w_cont_submit" -->
+                            <input  id=".w_cont_submit" type="submit"  value="立即注册" >
+                            <!-- <a class="w_cont_submit" type="submit">立即注册</a> -->
+                        </div>
+                    </form>
+                    <div class="mobile-foot">
+                    <p class="agreement"><a href="/signup/v5/protocol" target="_blank">微博服务使用协议</a></p>
+                    <p class="agreement"><a href="/signup/v5/privacy" target="_blank">微博个人信息保护政策</a></p>
+                    <p class="agreement"><a href="http://news.sina.com.cn/c/2012-12-29/051425921660.shtml" target="_blank">全国人大常委会关于加强网络信息保护的决定</a></p>
+                </div>
+                </div>
+                <div class="w_cont_border"></div>
+                <div class="w_cont_right clear">
+                    <p class="p1">已有账号，
+                        <a href="/HIMAN/goLogin">直接登录»</a>
+                    </p>
+                    <p>微博注册帮助</p>
+                    <div class="w_cont_right_help">
+                        <ul class="help-list">
+                            <li><i>1</i><a target="_blank" href="http://help.weibo.com/faq/q/76/15955#15955">微博注册操作指南</a></li>
+                            <li><i>2</i><a target="_blank" href="http://help.weibo.com/faq/q/200/13091#13091">手机注册时提示手机号码已被绑定怎么办?</a></li>
+                            <li><i>3</i><a target="_blank" href="http://help.weibo.com/faq/q/200/276#276">注册微博时昵称显示“已经被注册”如何处理?</a></li>
+                            <li><i>4</i><a target="_blank" href="http://help.weibo.com/faq/q/200/13043#13043">注册时提示"你所使用的IP地址异常",该怎么办?</a></li>
+                        </ul>
+                        <a target="_blank" href="http://help.weibo.com/faq/q/201" class="help_more">更多帮助»</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="w_contents clear">
+                <div class="w_contents_left">
+                    <ul class="no_sina_area_tips">
+                        <li>官方认证类型包括：政府、企业、媒体、网站、应用、机构、公益、校园组织</li>
+                        <li style="color:#E44443;">
+                            注意：非官方类用户，请直接在<a href="//weibo.com/signup/signup.php" target="_parent">个人注册</a>处注册
+                        </li>
+                    </ul>
+                    <form action="/HIMAN/regitser" method="post">
+                        <div class="w_contents_email clear">
+                            <div class="tit">
+                                <span class="email-ico"></span>
+                                <i>*</i>
+                                邮箱：
+                            </div>
+                            <div class="inp">
+                                <input node-type="email" action-type="text_copy" name="useremail" type="text" class="useremail " value="使用邮箱登录">
+                                <div class="attachment">或使用<a id="authority-email-number" href="">手机注册</a></div>
+                            </div>
+                            <div class="mobile-error">
+                                <p class="error">
+                                    <span class="icon_rederrorS"></span>
+                                    <i>请输入你的常用邮箱请不要使用私人邮箱作为企业微博的注册微博</i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mobile-number clear">
+                            <div class="mobile-number-left tit clear" >
+                                <span class="mobile-ico"></span>
+                                <i>*</i>
+                                <p>手机号：</p>
+                            </div>
+                            <div class="mobile-number-right clear">
+                                <a href=""></a>
+                                <span ></span>
+                                <input type="text" name="username" placeholder="请输入您的手机号码" action-data="text=请输入您的手机号码" autocomplete="off">
+                            </div>
+
+                            <div class="mobile-error">
+                                <p class="error">
+                                    <span class="icon_rederrorS"></span>
+                                    <i>请输入您的手机号码</i>
+                                </p>
+                            </div>
+                            <div class="attachment">或使用<a id="authority-number-email" href=" ">邮箱注册</a></div>
+
+                        </div>
+                        <div class="w_contents_password clear">
+                            <div class="tit">
+                                <i>*</i>
+                                设置密码：
+                            </div>
+                            <div class="inp">
+                                <input  name="passwd" type="password" class="w_contents_password_input " value="">
+                            </div>
+                            <div class="mobile-error">
+                                <p class="error">
+                                    <span class="icon_rederrorS"></span>
+                                    <i>6-16字符组成，区分大小写</i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w_contents_username clear">
+                            <div class="tit">
+                                <i>*</i>
+                                官方微博注册名：
+                            </div>
+                            <div class="inp">
+                                <input node-type="nickname" placeholder="请参考组织/企业/品牌全称" action-data="text=请参考组织/企业/品牌全称" action-type="text_copy"
+                                       name="nickname" type="text" class="W_input " value="">
+                            </div>
+                            <div class="mobile-error">
+                                <p class="error">
+                                    <span class="icon_rederrorS"></span>
+                                    <i>请填写企业\品牌的全称或无歧义的简称可输入4-30位，包含英文、数字和中文</i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w_contents_location clear">
+                            <div class="tit">
+                                <i>*</i>
+                                所在地：
+                            </div>
+                            <div class="inp choose">
+                                <select province="37" name="province" node-type="province"><option value="11">北京</option><option value="34">安徽</option><option value="50">重庆</option><option value="35">福建</option><option value="62">甘肃</option><option value="44">广东</option><option value="45">广西</option><option value="52">贵州</option><option value="46">海南</option><option value="13">河北</option><option value="23">黑龙江</option><option value="41">河南</option><option value="42">湖北</option><option value="43">湖南</option><option value="15">内蒙古</option><option value="32">江苏</option><option value="36">江西</option><option value="22">吉林</option><option value="21">辽宁</option><option value="64">宁夏</option><option value="63">青海</option><option value="14">山西</option><option value="37">山东</option><option value="31">上海</option><option value="51">四川</option><option value="12">天津</option><option value="54">西藏</option><option value="65">新疆</option><option value="53">云南</option><option value="33">浙江</option><option value="61">陕西</option><option value="71">台湾地区</option><option value="81">香港地区</option><option value="82">澳门地区</option><option value="400">海外</option><option value="100">其他</option></select>
+                                <select city="2" name="city" node-type="city"><option value="1">东城区</option><option value="2">西城区</option><option value="3">崇文区</option><option value="4">宣武区</option><option value="5">朝阳区</option><option value="6">丰台区</option><option value="7">石景山区</option><option value="8">海淀区</option><option value="9">门头沟区</option><option value="11">房山区</option><option value="12">通州区</option><option value="13">顺义区</option><option value="14">昌平区</option><option value="15">大兴区</option><option value="16">怀柔区</option><option value="17">平谷区</option><option value="28">密云县</option><option value="29">延庆县</option></select>
+                             </div>
+                        </div>
+                        <div class="w_contents_verification clear">
+                            <div class="tit">
+                                <i>*</i>
+                                验证码：
+                            </div>
+                            <div class="inp">
+                                <input node-type="verifycode" name="pincode" type="text" class="w_contents_verification_input" value="">
+                                <a href="javascript:void(0);">
+                                    <img src="" alt="">
+                                </a>
+                                <a href="javascript:void(0)" action-type="btn_change_verifycode" title="看不清，换一张">换一换</a>
+                            </div>
+                            <div class="mobile-error">
+                                <p class="error">
+                                    <span class="icon_rederrorS"></span>
+                                    <i>请输入验证码</i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w_contents_submit">
+                            <input name="verification_submit" id="verification_submit" type="submit" value="立即注册">
+                        </div>
+                    </form>
+                    <div class="mobile-foot">
+                        <p class="agreement"><a href="/signup/v5/protocol" target="_blank">微博服务使用协议</a></p>
+                        <p class="agreement"><a href="/signup/v5/privacy" target="_blank">微博个人信息保护政策</a></p>
+                        <p class="agreement"><a href="http://news.sina.com.cn/c/2012-12-29/051425921660.shtml" target="_blank">全国人大常委会关于加强网络信息保护的决定</a></p>
+                    </div>
+                </div>
+                <div class="w_cont_border"></div>
+                <div class="w_cont_right clear">
+                    <p class="p1">已有账号，
+                        <a href="/HIMAN/index">直接登录»</a>
+                    </p>
+                    <p>微博注册帮助</p>
+                    <div class="w_cont_right_help">
+                        <ul class="help-list">
+                            <li><i>1</i><a target="_blank" href="http://help.weibo.com/faq/q/76/15955#15955">微博注册操作指南</a></li>
+                            <li><i>2</i><a target="_blank" href="http://help.weibo.com/faq/q/200/13091#13091">手机注册时提示手机号码已被绑定怎么办?</a></li>
+                            <li><i>3</i><a target="_blank" href="http://help.weibo.com/faq/q/200/276#276">注册微博时昵称显示“已经被注册”如何处理?</a></li>
+                            <li><i>4</i><a target="_blank" href="http://help.weibo.com/faq/q/200/13043#13043">注册时提示"你所使用的IP地址异常",该怎么办?</a></li>
+                        </ul>
+                        <a target="_blank" href="http://help.weibo.com/faq/q/201" class="help_more">更多帮助»</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w_footer clear">
+        <div class="w_footer-left">
+            <i class="footer-logo"></i>
+            <em class="company_name">北京微梦创科网络技术有限公司</em>
+            <a href="//weibo.com/aj/static/jww.html">京网文[2011]0398-130号</a>
+            <a href="http://www.miibeian.gov.cn">京ICP备12002058号</a>
+        </div>
+        <div class="w_footer-right">
+            <span>Copyright © 2009-2017 WEIBO</span>
+            <select id="pl_content_changeLanguage" action-data="login=0">
+                <option selected="selected" value="zh-cn">中文(简体)</option>
+                <option value="zh-tw">中文(台湾)</option>
+                <option value="zh-hk">中文(香港)</option>
+                <option value="en-us">English</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

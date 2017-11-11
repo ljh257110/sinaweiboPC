@@ -1,0 +1,78 @@
+package com.himan.content.controller;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.himan.content.model.User;
+import com.himan.content.service.IUserService;
+import com.himan.others.WoException;
+import com.himan.others.WoResultCode;
+
+@Controller
+@RequestMapping("/")
+public class UserController {
+	@Autowired
+	private IUserService userService;
+	private final static Logger LOG = LogManager.getLogger(UserController.class);
+
+	@RequestMapping("/firstpage")
+	public String first() {
+		return "login_index";
+
+	}
+	
+	@RequestMapping("/login")
+	public String login(User user) {
+		LOG.info(user.getUserPhone());
+		
+		try {
+			//user = userService.login(user.getUserPhone(), user.getUserPwd());
+			System.out.println("sucess");
+			WoResultCode wrc = new WoResultCode();
+			wrc.setContent(user);
+			wrc.setUrl("login_index");
+			wrc.setMsg("登录成功！");
+			LOG.info(user.getUserPwd());
+			return "login_index";
+		} catch (WoException we) {
+			
+			return "login_index";
+		}
+	}
+
+
+	@RequestMapping("/goLogin")
+	public String goLogin() {
+		System.out.println("hahha");
+		return "login";
+	}
+
+	@ResponseBody
+	@RequestMapping("/personal")
+	public Object changeData(User user, String userPhone) {
+		try {
+			userService.changeData(user, userPhone);
+			return null;
+		} catch (WoException wo) {
+			return null;
+		}
+
+	}
+	// @ResponseBody
+	// @RequestMapping(value="/register",produces="application/json")
+	// public Object find(String userPhone){
+	// User user=userService.find(userPhone);
+	//
+	//
+	// return userPhone;
+	//
+	//
+	//
+	// }
+	//
+
+}

@@ -1,0 +1,34 @@
+$(function(){
+	function textarea(){
+		$("#h_input").focus(function(){
+			$(".input").css("border","1px solid #eb7350");
+			$(".input").css("box-shadow","none");
+			
+		})
+		$("#h_input").blur(function(){
+			$(".input").css("border","1px solid #ccc");
+			$(".input").css("box-shadow","0px 0px 3px 0px");
+			
+		})
+	}
+	textarea();
+	function trend_show(obj){
+		obj.eq(0).find(".h_pic_box").css("display","block");
+		obj.eq(0).find("p").css("display","block");
+		obj.mouseover(function(){
+			obj.find(".h_pic_box").css("display","none");
+			obj.find("p").css("display","none");
+			$(this).find(".h_pic_box").css("display","block");
+			$(this).find("p").css("display","block");
+		})
+	}
+	trend_show($(".rm_rank .WB_trend ul li"));
+	$(window).scroll(function(){
+		$(".header").css("position","fixed");
+		// $(".h_main_l").css("position","fixed").css("top","48px");
+		if($(this).scrollTop() == 0){
+			$(".header").css("position","static");
+		}
+		
+	})
+})

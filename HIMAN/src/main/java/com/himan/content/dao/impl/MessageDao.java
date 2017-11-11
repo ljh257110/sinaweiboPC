@@ -1,0 +1,265 @@
+package com.himan.content.dao.impl;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.UUID;
+
+import javax.annotation.Resource;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Repository;
+
+import com.himan.content.dao.IMessageDao;
+import com.himan.content.model.Collect;
+import com.himan.content.model.Comment;
+import com.himan.content.model.Message;
+import com.himan.content.model.Praise;
+import com.himan.content.model.User;
+@Repository
+@Primary
+public class MessageDao implements IMessageDao {
+	/**
+	 * Recording the log of this class.
+	 */
+	private final static Logger LOG = LogManager.getLogger(MessageDao.class);
+
+	@Resource
+	private SessionFactory sessionFactory;
+	@Override
+	public List<Message> getHotList() {
+		// TODO Auto-generated method stub
+		String hql = "from Message m order by m.messagePraise desc";
+		List<Message> hotList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).getResultList();
+		return hotList;
+	}
+	@Override
+	public List<Message> getNewestList() {
+		// TODO Auto-generated method stub
+		String hql = "from Message m order by m.messageDate desc";
+		List<Message> newestList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).getResultList();
+		return newestList;
+	}
+	@Override
+	public List<Message> getStarList() {
+		// TODO Auto-generated method stub
+		String hql1 = "from User u where u.role = '1'";
+		List<User> userList = sessionFactory.getCurrentSession().createQuery(hql1,User.class).getResultList();
+		String hql = "from Message m where m.messageId in (";
+		for (int i = 0; i < userList.size(); i++) {
+			if (i > 0) {
+				hql += ",";
+			}
+			hql += "?";
+		}
+		Query<Message> query = sessionFactory.getCurrentSession().createQuery(hql, Message.class);
+		for (int i = 0; i < userList.size(); i++) {
+			query.setParameter(i, userList.get(i).getUserId());
+		}
+		List<Message> starList = query.getResultList();		
+		return starList;
+	}
+	@Override
+	public List<Message> getFunnyList() {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.type = :type";
+		List<Message> funnyList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("type", Message.TYPE_FUNNY).getResultList();
+		return funnyList;
+	}
+	@Override
+	public List<Message> getEmotionList() {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.type = :type";
+		List<Message> funnyList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("type", Message.TYPE_EMOTION).getResultList();
+		return funnyList;
+	}
+	@Override
+	public List<Message> getMilitaryList() {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.type = :type";
+		List<Message> funnyList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("type", Message.TYPE_MILITARY).getResultList();
+		return funnyList;
+	}
+	@Override
+	public List<Message> getSocialList() {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.type = :type";
+		List<Message> funnyList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("type", Message.TYPE_SOCIAL).getResultList();
+		return funnyList;
+	}
+	@Override
+	public List<Message> getFashionList() {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.type = :type";
+		List<Message> funnyList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("type", Message.TYPE_FASHION).getResultList();
+		return funnyList;
+	}
+	@Override
+	public List<Message> getSportsList() {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.type = :type";
+		List<Message> funnyList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("type", Message.TYPE_SPORTS).getResultList();
+		return funnyList;
+	}
+	@Override
+	public List<Message> getCartoonList() {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.type = :type";
+		List<Message> funnyList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("type", Message.TYPE_CARTOON).getResultList();
+		return funnyList;
+	}
+	@Override
+	public Message findByMessageId(String messageId) {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.messageId = :messageId";
+		List<Message> list = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("messageId", messageId).getResultList();
+		return list.get(0);
+	}
+	@Override
+	public Message addPraise(String messageId, String userId) {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.messageId = :messageId";
+		List<Message> list = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("messageId", messageId).getResultList();
+		Message message = list.get(0);
+		int praise = message.getMessagePraise()+1;
+		message.setMessagePraise(praise);
+		sessionFactory.getCurrentSession().merge(message);
+		String hql1 = "from User u where u.userId = :userId";
+		List<User> list2 = sessionFactory.getCurrentSession().createQuery(hql1,User.class).setParameter("userId", userId).getResultList();
+		User user = list2.get(0);
+		Praise praise2 = new Praise();
+		praise2.setPraiseId(UUID.randomUUID().toString());
+		praise2.setUser(user);
+		praise2.setMessage(message);
+		praise2.setPraiseDate(new Date());
+		sessionFactory.getCurrentSession().persist(praise2);
+		return message;
+	}
+	@Override
+	public Message collect(String messageId, String userId) {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.messageId = :messageId";
+		List<Message> list = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("messageId", messageId).getResultList();
+		Message message = list.get(0);
+		int collect = Integer.parseInt(message.getMessageCollect())+1;
+		String collectCount = collect+"";
+		message.setMessageCollect(collectCount);
+		sessionFactory.getCurrentSession().merge(message);
+		String hql1 = "from User u where u.userId = :userId";
+		List<User> list2 = sessionFactory.getCurrentSession().createQuery(hql1,User.class).setParameter("userId", userId).getResultList();
+		User user = list2.get(0);
+		Collect collect2 = new Collect();
+		collect2.setCollectId(UUID.randomUUID().toString());
+		collect2.setUser(user);
+		collect2.setMessage(message);
+		collect2.setCollectDate(new Date());
+		sessionFactory.getCurrentSession().persist(collect2);
+		return message;
+	}
+	@Override
+	public List<Message> attention(String userId) {
+		// TODO Auto-generated method stub
+		List<User> users = null;
+		List<Message> messages = new ArrayList<Message>();
+		for (User user : users) {
+			String hql = "from Message m where m.userId = :userId";
+			List<Message> list = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("userId", user.getUserId()).getResultList();
+			for (Message message : list) {
+				messages.add(message);
+			}
+		}
+		return messages;
+	}
+	@Override
+	public List<Message> article() {
+		// TODO Auto-generated method stub
+		String hql = "from Message";
+		List<Message> list = sessionFactory.getCurrentSession().createQuery(hql,Message.class).getResultList();
+		List<Message> messages = new ArrayList<Message>();
+		for (Message message : list) {
+			if(message.getmImages().size()==0){
+				messages.add(message);
+			}
+		}
+		return messages;
+	}
+	@Override
+	public List<Message> singleImage() {
+		// TODO Auto-generated method stub
+		String hql = "from Message";
+		List<Message> list = sessionFactory.getCurrentSession().createQuery(hql,Message.class).getResultList();
+		List<Message> messages = new ArrayList<Message>();
+		for (Message message : list) {
+			if(message.getmImages().size()==1){
+				messages.add(message);
+			}
+		}
+		return messages;
+	}
+	@Override
+	public List<Message> fourImage() {
+		// TODO Auto-generated method stub
+		String hql = "from Message";
+		List<Message> list = sessionFactory.getCurrentSession().createQuery(hql,Message.class).getResultList();
+		List<Message> messages = new ArrayList<Message>();
+		for (Message message : list) {
+			if(message.getmImages().size()==9){
+				messages.add(message);
+			}
+		}
+		return messages;
+	}
+	@Override
+	public List<Message> fuzzySearch(String keyword) {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.messageContent like '%"+keyword+"%'";
+		List<Message> resultList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).getResultList();
+		return resultList;
+	}
+	@Override
+	public List<Comment> findCommentByMessageId(String messageId) {
+		// TODO Auto-generated method stub
+		String hql = "from Comment c where c.message.messageId = :messageId";
+		List<Comment> resultList = sessionFactory.getCurrentSession().createQuery(hql,Comment.class).setParameter("messageId", messageId).getResultList();
+		return resultList;
+	}
+	@Override
+	public List<Message> myCollect(String userId) {
+		// TODO Auto-generated method stub
+		String hql ="from Collect c where c.user.userId = :userId";
+		List<Collect> resultList = sessionFactory.getCurrentSession().createQuery(hql,Collect.class).setParameter("userId", userId).getResultList();
+		List<Message> list = new ArrayList<Message>();
+		for (Collect collect : resultList) {
+			Message message = collect.getMessage();
+			list.add(message);
+		}
+		return list;
+	}
+	@Override
+	public List<Message> myPraise(String userId) {
+		// TODO Auto-generated method stub
+		String hql ="from Praise c where c.user.userId = :userId";
+		List<Praise> resultList = sessionFactory.getCurrentSession().createQuery(hql,Praise.class).setParameter("userId", userId).getResultList();
+		List<Message> list = new ArrayList<Message>();
+		for (Praise praise : resultList) {
+			Message message = praise.getMessage();
+			list.add(message);
+		}
+		return list;
+	}
+	@Override
+	public Message getByMessageId(String messageId) {
+		// TODO Auto-generated method stub
+		String hql = "from Message m where m.messageId = :messageId";
+		List<Message> resultList = sessionFactory.getCurrentSession().createQuery(hql,Message.class).setParameter("messageId", messageId).getResultList();
+		return resultList.get(0);
+	}
+	@Override
+	public List<Message> getAllMessages(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

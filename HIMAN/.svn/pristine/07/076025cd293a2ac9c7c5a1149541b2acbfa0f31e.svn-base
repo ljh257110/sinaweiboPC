@@ -1,0 +1,17 @@
+$(function(){
+	function show(obj1,obj2){
+		obj1.click(function(){
+			$(".w_cont_cont").css("display","block");
+			obj1.css("border-bottom","3px solid #ffa00a")
+			$(".w_contents").css("display","none");
+			obj2.css("border-bottom",0)
+		})
+		obj2.click(function(){
+			$(".w_cont_cont").css("display","none");
+			obj2.css("border-bottom","none")
+			$(".w_contents").css("display","block");
+			obj1.css("border-bottom","3px solid #ffa00a")
+		})
+	}
+	show($(".w_cont_top #personage-register"),$(".w_cont_top #official-register"));
+})

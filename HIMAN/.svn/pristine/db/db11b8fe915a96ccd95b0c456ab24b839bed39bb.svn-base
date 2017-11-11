@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="css/login_index.css" type="text/css">
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/login_index.js"></script>
+</head>
+<body>
+<form action="/HIMAN/login_index"></form>
+	<!-- 头部 -->
+	<div class="header">111</div>
+	<!-- 主体 -->
+	<div id="h_content">
+		<div class="h_frame">
+			<!-- 左部 -->
+			<div class="h_main_l" fixed-box="true">
+				<div id="h_group">
+					<div class="h_fixd">
+						<div class="h_left_nav">
+							<div class="h_noborder lev_box">
+								<h3 class="h_lev">
+									<a href=""> <span class="levtxt">首页</span>
+									</a>
+								</h3>
+							</div>
+							<div class="h_noborder lev_box">
+								<h3 class="h_lev">
+									<a href=""> <span class="levtxt">我的收藏</span>
+									</a>
+								</h3>
+							</div>
+							<div class="h_noborder lev_box">
+								<h3 class="h_lev">
+									<a href=""> <span class="levtxt">我的赞</span>
+									</a>
+								</h3>
+							</div>
+							<div class="lev_line">
+								<fieldset></fieldset>
+							</div>
+							<div class="h_noborder lev_box">
+								<div class="lev">
+									<a href=""> <span class="ico_block"> <em></em>
+									</span> <span class="levtxt">热门微博</span> <i class="h_new"></i>
+									</a>
+								</div>
+								<div class="lev">
+									<a href=""> <span class="ico_block"> <em></em>
+									</span> <span class="levtxt">热门视频</span> <i class="h_new"></i>
+									</a>
+								</div>
+							</div>
+							<div class="lev_line">
+								<fieldset>
+									<legend>
+										<a href=""></a>
+									</legend>
+								</fieldset>
+							</div>
+							<div class="h_UI_scrollView">
+								<div class="h_UI_scrollContent">
+									<div class="lev_box">
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">好友圈</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">特别关注</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">新闻热点</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">演员</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">动漫</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">时事</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">军事</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">财经</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">明星</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">搞笑</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">名人明星</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">科学</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">音乐</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">群微博</span>
+											</a>
+										</div>
+										<div class="lev">
+											<a href=""> <span class="ico_block"> <em></em>
+											</span> <span class="levtxt">悄悄关注</span>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 中部 -->
+			<div class="h_plc_main">
+				<div class="h_main_c">
+					<div class="h_pl_content">
+						<div class="send_weibo">
+							<div class="title_area">
+								<div class="title">
+									<p class="h_swficon">
+										<em class="spac1">有什么新</em> <em class="spac2">鲜</em> <em
+											class="spac3">事想告诉大家</em> <em class="spac4">?</em>
+									</p>
+								</div>
+								<div class="key">
+									<a href="" target="_blank">给青年的一封信：欣赏你一往无前的奋斗姿态</a> <a href=""
+										target="_blank">热门微博</a>
+								</div>
+
+							</div>
+							<div class="input">
+								<textarea name="" id="h_input" cols="30" rows="10"></textarea>
+							</div>
+							<div class="func_area">
+								<div class="func">
+									<div class="limits">
+										<a href="" onclick="return false"> <span class="h_autocut">公开</span>
+											<em></em>
+										</a>
+									</div>
+									<a href="" class="h_btn">发布</a>
+								</div>
+								<div class="kind">
+									<a href=""><em></em>表情</a> <a href=""><em></em>图片</a> <a
+										href=""><em></em>视频</a> <a href=""><em></em>话题</a> <a href=""><em></em>头条文章</a>
+									<a href="" class="ficon_more"><em></em>•••</a>
+								</div>
+							</div>
+						</div>
+						<div class="content_homefeed">
+							<div class="h_tab_a">
+								<div class="tab_box">
+									<ul class="tab">
+										<li class="curr"><a href=""><span>全部</span></a></li>
+										<li class="h_bg2"><a href=""><span>原创</span></a></li>
+										<li class="h_bg2"><a href=""><span>图片</span></a></li>
+										<li class="h_bg2"><a href=""><span>视频</span></a></li>
+										<li class="h_bg2"><a href=""><span>音乐</span></a></li>
+										<li class="h_bg2"><a href=""><span>文章</span></a></li>
+
+									</ul>
+									<div class="fr_box">
+										<div class="search_box">
+											<span class="h_search_s">
+												<form action="" method="get">
+													<input type="text" class="h_input" value="搜索我关注人的微博">
+												</form>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="h_cardwrap">
+								<a href="">有新微博，点击查看</a>
+							</div>
+							<!-- 具体微博内容 -->
+							<div class="h_feed">
+								<!-- 一条微博 -->
+								<div class="hwb_cardwrap">
+									<div class="h_feed_detail">
+										<div class="h_screen">
+											<div class="screen_box">
+												<a href=""><i class="h_ficon">c</i></a>
+											</div>
+										</div>
+										<div class="h_face">
+											<a href="" class="h_face_radius"><img
+												src="images/49646b5ejw8ejph0g870sj20no0nojud.jpg" alt=""></a>
+										</div>
+										<div class="h_detail">
+											<div class="h_info">
+												<a href="" class="h_name">工业科技迷</a> <a href=""><i
+													class="icon_approve_gold"></i></a> <a href=""><em
+													class="icon_member"></em></a>
+											</div>
+											<div class="h_form">
+												<a href="">今天 17:16</a> 来自 <a href="">iPhone 6(土豪金)</a>
+											</div>
+											<div class="h_weibo_text">
+												<p>木质工艺品，精美！</p>
+											</div>
+											<div class="h_weibo_img">
+												<div class="media_box">
+													<ul>
+														<li><img
+															src="images/49646b5egy1fkotx1uynyj20k30kltck.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx2uevhj20o10gmaf4.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx3im89j20ku0kujvn.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx4ay7hj20mi0kun2k.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx4t5efj20hv0m1abm.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx5jknyj20hl0ng0xz.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx5wh14j20bg0lfwfl.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx6o2kxj20i70len14.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx7e3mvj20jf0pwjw9.jpg" alt=""></li>
+													</ul>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<ul class="h_WB_handle">
+										<li><a href=""> <span><em></em><em>收藏</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>8</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>3</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>13</em></span>
+										</a></li>
+									</ul>
+								</div>
+								<div class="hwb_cardwrap">
+									<div class="h_feed_detail">
+										<div class="h_screen">
+											<div class="screen_box">
+												<a href=""><i class="h_ficon">c</i></a>
+											</div>
+										</div>
+										<div class="h_face">
+											<a href="" class="h_face_radius"><img
+												src="images/49646b5ejw8ejph0g870sj20no0nojud.jpg" alt=""></a>
+										</div>
+										<div class="h_detail">
+											<div class="h_info">
+												<a href="" class="h_name">工业科技迷</a> <a href=""><i
+													class="icon_approve_gold"></i></a> <a href=""><em
+													class="icon_member"></em></a>
+											</div>
+											<div class="h_form">
+												<a href="">今天 17:16</a> 来自 <a href="">iPhone 6(土豪金)</a>
+											</div>
+											<div class="h_weibo_text">
+												<p>木质工艺品，精美！</p>
+											</div>
+											<div class="h_weibo_img">
+												<div class="media_box">
+													<ul>
+														<li><img
+															src="images/49646b5egy1fkotx1uynyj20k30kltck.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx2uevhj20o10gmaf4.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx3im89j20ku0kujvn.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx4ay7hj20mi0kun2k.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx4t5efj20hv0m1abm.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx5jknyj20hl0ng0xz.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx5wh14j20bg0lfwfl.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx6o2kxj20i70len14.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx7e3mvj20jf0pwjw9.jpg" alt=""></li>
+													</ul>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<ul class="h_WB_handle">
+										<li><a href=""> <span><em></em><em>收藏</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>8</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>3</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>13</em></span>
+										</a></li>
+									</ul>
+								</div>
+								<div class="hwb_cardwrap">
+									<div class="h_feed_detail">
+										<div class="h_screen">
+											<div class="screen_box">
+												<a href=""><i class="h_ficon">c</i></a>
+											</div>
+										</div>
+										<div class="h_face">
+											<a href="" class="h_face_radius"><img
+												src="images/49646b5ejw8ejph0g870sj20no0nojud.jpg" alt=""></a>
+										</div>
+										<div class="h_detail">
+											<div class="h_info">
+												<a href="" class="h_name">工业科技迷</a> <a href=""><i
+													class="icon_approve_gold"></i></a> <a href=""><em
+													class="icon_member"></em></a>
+											</div>
+											<div class="h_form">
+												<a href="">今天 17:16</a> 来自 <a href="">iPhone 6(土豪金)</a>
+											</div>
+											<div class="h_weibo_text">
+												<p>木质工艺品，精美！</p>
+											</div>
+											<div class="h_weibo_img">
+												<div class="media_box">
+													<ul>
+														<li><img
+															src="images/49646b5egy1fkotx1uynyj20k30kltck.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx2uevhj20o10gmaf4.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx3im89j20ku0kujvn.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx4ay7hj20mi0kun2k.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx4t5efj20hv0m1abm.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx5jknyj20hl0ng0xz.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx5wh14j20bg0lfwfl.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx6o2kxj20i70len14.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx7e3mvj20jf0pwjw9.jpg" alt=""></li>
+													</ul>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<ul class="h_WB_handle">
+										<li><a href=""> <span><em></em><em>收藏</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>8</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>3</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>13</em></span>
+										</a></li>
+									</ul>
+								</div>
+								<div class="hwb_cardwrap">
+									<div class="h_feed_detail">
+										<div class="h_screen">
+											<div class="screen_box">
+												<a href=""><i class="h_ficon">c</i></a>
+											</div>
+										</div>
+										<div class="h_face">
+											<a href="" class="h_face_radius"><img
+												src="images/49646b5ejw8ejph0g870sj20no0nojud.jpg" alt=""></a>
+										</div>
+										<div class="h_detail">
+											<div class="h_info">
+												<a href="" class="h_name">工业科技迷</a> <a href=""><i
+													class="icon_approve_gold"></i></a> <a href=""><em
+													class="icon_member"></em></a>
+											</div>
+											<div class="h_form">
+												<a href="">今天 17:16</a> 来自 <a href="">iPhone 6(土豪金)</a>
+											</div>
+											<div class="h_weibo_text">
+												<p>木质工艺品，精美！</p>
+											</div>
+											<div class="h_weibo_img">
+												<div class="media_box">
+													<ul>
+														<li><img
+															src="images/49646b5egy1fkotx1uynyj20k30kltck.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx2uevhj20o10gmaf4.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx3im89j20ku0kujvn.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx4ay7hj20mi0kun2k.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx4t5efj20hv0m1abm.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx5jknyj20hl0ng0xz.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx5wh14j20bg0lfwfl.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx6o2kxj20i70len14.jpg" alt=""></li>
+														<li><img
+															src="images/49646b5egy1fkotx7e3mvj20jf0pwjw9.jpg" alt=""></li>
+													</ul>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<ul class="h_WB_handle">
+										<li><a href=""> <span><em></em><em>收藏</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>8</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>3</em></span>
+										</a></li>
+										<li><a href=""> <span><em></em><em>13</em></span>
+										</a></li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="h_main_r">
+					<!-- 个人信息 -->
+					<div class="rm_myinfo">
+						<div class="person_info">
+							<div class="skin_cover">
+								<div class="headpic">
+									<a href=""> <img
+										src="images/49646b5ejw8ejph0g870sj20no0nojud.jpg" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="WB_innerwrap">
+								<div class="nameBox">
+									<a href="" class="per_name">央视新闻</a>
+								</div>
+								<ul class="user_atten">
+									<li><a href=""> <i>114</i> <span>关注</span>
+									</a></li>
+									<li><a href=""> <i>2346</i> <span>粉丝</span>
+									</a></li>
+									<li class="wb_last"><a href=""> <i>11432</i> <span>微博</span>
+									</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- 微博趋势榜 -->
+					<div class="rm_rank">
+						<div class="h_cardtitle_b">
+							<h2>
+								<a href="">微博童书榜实时趋势</a>
+							</h2>
+						</div>
+						<div class="WB_trend">
+							<ul>
+								<li>
+									<div class="h_pic_box">
+										<a href=""><img src="images/100x150x75x0.jpg" alt=""></a>
+									</div>
+									<div class="h_li_box li_box_one">
+										<div class="h_info_box">
+											<a href="" class="h_info_title"><i>1</i>超级迷宫大冒险(全三册)</a>
+											<p class="h_subtitle">菲尔柯斯特出版社、格雷厄姆·怀特</p>
+											<p></p>
+											<p>24154024分</p>
+										</div>
+
+									</div>
+								</li>
+								<li>
+									<div class="h_pic_box">
+										<a href=""><img src="images/100x150x75x01.jpg" alt=""></a>
+									</div>
+									<div class="h_li_box">
+										<div class="h_info_box">
+											<a href="" class="h_info_title"><i>2</i>我的大英雄(全8册)</a>
+											<p class="h_subtitle">王德启</p>
+											<p></p>
+											<p>2321787分</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="h_pic_box">
+										<a href=""><img src="images/100x150x75x02.jpg" alt=""></a>
+									</div>
+									<div class="h_li_box">
+										<div class="h_info_box">
+											<a href="" class="h_info_title"><i>3</i>汪汪队立大功儿童安全救援故事书:第二辑(套装共8册)</a>
+											<p class="h_subtitle">美国尼克儿童频道</p>
+											<p></p>
+											<p>982462分</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a href="" class="look_more"> <span>查看更多<i>></i></span>
+						</a>
+					</div>
+					<!-- 热门话题 -->
+					<div class="rm_hottopic">
+						<div class="topic_title">
+							<h4>
+								<a href="">热门话题</a>
+							</h4>
+							<div class="topic_change">
+								<a href=""><i>e</i>换一换</a>
+							</div>
+						</div>
+						<div class="topic_connent">
+							<ul>
+								<li><a href="">#这一刻的时光#</a> <span>3.7亿</span></li>
+								<li><a href="">#扑通扑通少女心#</a> <span>10.2亿</span></li>
+								<li><a href="">#不屑风雪#</a> <span>1.4亿</span></li>
+								<li><a href="">#我的少女look#</a> <span>2.3亿</span></li>
+								<li><a href="">#我心中的警察英雄#</a> <span>2322万</span></li>
+								<li><a href="">#你为什么而活#</a> <span>6万</span></li>
+								<li><a href="">#史上最全甜萌小说#</a> <span>2万</span></li>
+								<li><a href="">#对话中华书局总编辑#</a> <span>132万</span></li>
+							</ul>
+						</div>
+						<a href="" class="look_more"> <span>查看更多<i>></i></span>
+						</a>
+					</div>
+					<!-- 好友关注动态 -->
+					<div class="h_friend">
+						<div class="h_friend_social">
+							<p>好友关注动态</p>
+						</div>
+						<div class="h_friend_com">
+							<p>你评论过他的微博</p>
+							<div class="you_friend">
+								<div class="pic">
+									<a href=""><img
+										src="images/e102cb15ly8ffes1aowufj20ru0rutaw.jpg" alt=""></a>
+								</div>
+								<div class="con">
+									<p class="fri_name">
+										<a href="">巍岳钦禹</a><a href=""><i></i></a>
+									</p>
+									<p class="fri_classify">知名军事博主</p>
+									<p class="fri_attention">
+										<a href=""><i>+</i>关注</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</body>
+</html>

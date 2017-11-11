@@ -1,0 +1,17 @@
+package com.himan.content.controller;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+@Controller
+@RequestMapping("/")
+public class FirstPage {
+	/**
+	 * Recording the log of this class.
+	 */
+	private final static Logger LOG = LogManager.getLogger(FirstPage.class);
+	@RequestMapping("/register")
+	public String register(){
+		return "register";
+	}
+}

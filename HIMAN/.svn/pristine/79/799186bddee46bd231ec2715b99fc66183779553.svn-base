@@ -1,0 +1,59 @@
+package com.himan.content.service.impl;
+
+import javax.transaction.Transactional;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
+
+import com.himan.content.dao.IUserDao;
+import com.himan.content.model.User;
+import com.himan.content.service.IUserService;
+import com.himan.others.WoException;
+import com.himan.others.WoResultCode;
+
+/**
+ * 
+ * @author dg
+ *
+ */
+@Service
+@Transactional
+@Primary
+public class UserService implements IUserService {
+	@Autowired
+	private IUserDao userDao;
+	private final static Logger LOG = LogManager.getLogger(UserService.class);
+	
+	// private IUserDao userDao;
+	public User login(String userPhone, String userPwd) {
+		// TODO Auto-generated method stub
+		User user = userDao.login(userPhone,userPwd);
+
+		return user;
+	}
+
+	@Override
+	public void register(User user) {
+		// TODO Auto-generated method stub
+		userDao.register(user);
+
+	}
+
+	@Override
+	public void changeData(User user, String userPhone) {
+		// TODO Auto-generated method stub
+		userDao.changeData(user, userPhone);
+	}
+
+	@Override
+	public User find(String userPhone) {
+		// TODO Auto-generated method stub
+		userDao.find(userPhone);
+
+		return null;
+	}
+}
